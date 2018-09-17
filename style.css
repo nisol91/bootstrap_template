@@ -1,9 +1,157 @@
-.blue {
+* {
+  font-family: 'Lato', sans-serif;
+}
+.top-nav {
   background: #2c3e50;
 }
-#head {
+.row-nav {
+  height: 80px;
+}
+.container-top .line, .container-bottom .line {
+  border-bottom: 3px solid white;
+}
+.container-middle .line, .container-form .line {
+  border-bottom: 3px solid #2c3e50;
+}
+.container-middle .line {
+  margin-bottom: 30px;
+}
+img {
+  max-width: 100%;
+}
+.fa-bars {
+  color: #1e2a37;
+  margin-top: 30px;
+  font-size: 25px;
+}
+.container-top h1 {
+  font-size: 65px;
+  font-weight: 900;
+  color: white;
+  margin: 30px 0;
+}
+.container-middle h1, .container-form h1 {
+  font-size: 55px;
+  font-weight: 400;
+  color: #2c3e50;
+  margin: 30px 0;
+}
+.container-bottom h1 {
+  font-size: 55px;
+  font-weight: 900;
+  color: white;
+  padding: 20px;
+}
+.row-nav h2 {
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+  line-height: 80px;
+}
+.row-nav h3 {
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+  line-height: 80px;
+}
+.container-top h3 {
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+  line-height: 80px;
+  margin: 30px 0;
+}
+.row-nav h3:hover {
+  color:#18bc9c;
+}
+.container-footer h2 {
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 900;
+}
+.container-footer h3 {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+.container-f-down h3 {
+  color: white;
   font-size: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.container-bottom p {
+  text-align: left;
+  padding: 20px;
+  color: white;
 }
 .margin-img {
-  margin: 5px
+  margin: 10px 0;
+}
+.margin-img-top {
+  margin-top: 50px;
+}
+.row-img-top {
+  margin-top: 50px;
+}
+.container-top {
+  background:#18bc9c;
+}
+.container-middle {
+  padding-bottom: 50px;
+}
+.container-bottom {
+  background:#18bc9c;
+}
+.container-footer {
+  background: #2c3e50;
+  margin-top: 30px;
+  height: 200px;
+}
+.container-f-down {
+  background: #1f2b38;
+  height: 50px;
+}
+.btn-modified {
+  height: 60px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.fa-download {
+  margin-right: 20px;
+}
+.form-controls {
+  margin-top: 50px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    height: 50px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #12806a;
+    border-color: #12806a;
+}
+.form-control {
+  border: 0px solid black;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0px;
+  font-size: 20px;
+}
+.link-start {
+  color: #18bc9c;
+}
+.link-start:hover {
+  color: #12806a;
+}
+.btn-social {
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
