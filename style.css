@@ -75,15 +75,6 @@ img {
 .row-nav {
   height: 80px;
 }
-.container-top .line, .container-bottom .line {
-  border-bottom: 3px solid white;
-}
-.container-middle .line, .container-form .line {
-  border-bottom: 3px solid #2c3e50;
-}
-.container-middle .line {
-  margin-bottom: 30px;
-}
 .star-light {
     color: white;
     max-width: 15rem;
@@ -99,6 +90,30 @@ img {
 .star-light:after {
     color: #fff;
     background-color: #18bc9c;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 .25em;
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 2em;
+}
+.star-dark {
+    color: #2c3e50;
+    max-width: 15rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid .25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.star-dark:after {
+    color: #2c3e50;
+    background-color: white;
     position: relative;
     top: -.8em;
     display: inline-block;
@@ -182,4 +197,85 @@ img {
     height: 3.25rem;
     font-size: 1.25rem;
     line-height: 2rem;
+    margin-left: 5px;
+}
+.socials {
+  display: inline-block;
+  text-align: center;
+}
+/* media query per modifica font-size e dimensioni bottoni */
+@media (max-width: 1300px) {
+  #download {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1100px) {
+  .row-nav h2 {
+    font-size: 20px;
+  }
+  .row-nav h3 {
+    font-size: 10px;
+  }
+  .container-footer h3 {
+    font-size: 12px;
+  }
+  #download {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .fa-bars {
+    font-size: 40px;
+    margin-top: 18px;
+  }
+  #download {
+    font-size: 15px;
+  }
+  .container-footer {
+    height: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .fa-bars {
+    font-size: 40px;
+    margin-top: 5px;
+  }
+  .container-middle {
+    padding: 0px 20px 50px 20px;
+}
+  .row-nav {
+    height: 180px;
+  }
+  .container-top h1 {
+    font-size: 45px;
+  }
+  .container-middle h1, .container-form h1 {
+    font-size: 45px;
+  }
+  .container-bottom h1 {
+    font-size: 55px;
+  }
+  .row-nav h2 {
+    font-size: 18px;
+  }
+  .container-top h3 {
+    font-size: 11px;
+  }
+  .container-footer h2 {
+    font-size: 20px;
+  }
+  .container-footer h3 {
+    font-size: 13px;
+  }
+  .container-f-down h3 {
+    font-size: 10px;
+  }
+  .container-bottom p {
+  }
+  #download {
+    font-size: 15px;
+  }
+  .container-footer {
+    height: 400px;
+  }
 }
