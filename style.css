@@ -1,3 +1,4 @@
+/* typhography and images */
 * {
   font-family: 'Lato', sans-serif;
 }
@@ -68,7 +69,7 @@
 img {
   max-width: 100%;
 }
-/* ------------------------------- */
+/* -------div and containers---------- */
 .top-nav {
   background: #2c3e50;
 }
@@ -76,52 +77,52 @@ img {
   height: 80px;
 }
 .star-light {
-    color: white;
-    max-width: 15rem;
-    padding: 0;
-    text-align: center;
-    border: none;
-    border-top: solid .25rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
+  color: white;
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid .25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .star-light:after {
-    color: #fff;
-    background-color: #18bc9c;
-    position: relative;
-    top: -.8em;
-    display: inline-block;
-    padding: 0 .25em;
-    content: '\f005';
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 2em;
+  color: #fff;
+  background-color: #18bc9c;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
 }
 .star-dark {
-    color: #2c3e50;
-    max-width: 15rem;
-    padding: 0;
-    text-align: center;
-    border: none;
-    border-top: solid .25rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
+  color: #2c3e50;
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid .25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .star-dark:after {
-    color: #2c3e50;
-    background-color: white;
-    position: relative;
-    top: -.8em;
-    display: inline-block;
-    padding: 0 .25em;
-    content: '\f005';
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 2em;
+  color: #2c3e50;
+  background-color: white;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 .25em;
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
 }
 .fa-bars {
   color: #1e2a37;
@@ -170,15 +171,15 @@ img {
   margin-top: 50px;
 }
 .btn-primary {
-    color: #fff;
-    background-color: #18bc9c;
-    border-color: #18bc9c;
-    height: 50px;
+  color: #fff;
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+  height: 50px;
 }
 .btn-primary:hover {
-    color: #fff;
-    background-color: #12806a;
-    border-color: #12806a;
+  color: #fff;
+  background-color: #12806a;
+  border-color: #12806a;
 }
 .form-control {
   border: 0px solid black;
@@ -193,11 +194,11 @@ img {
   color: #12806a;
 }
 .btn-social {
-    width: 3.25rem;
-    height: 3.25rem;
-    font-size: 1.25rem;
-    line-height: 2rem;
-    margin-left: 5px;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-left: 5px;
 }
 .socials {
   display: inline-block;
@@ -242,7 +243,7 @@ img {
   }
   .container-middle {
     padding: 0px 20px 50px 20px;
-}
+  }
   .row-nav {
     height: 180px;
   }
